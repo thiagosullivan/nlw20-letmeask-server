@@ -5,9 +5,10 @@ import {
   validatorCompiler,
   type ZodTypeProvider,
 } from 'fastify-type-provider-zod';
+import { sql } from './db/connection.ts';
 import { env } from './env.ts';
 
-const app = fastify();
+const app = fastify().withTypeProvider<ZodTypeProvider>();
 
 app.register(fastifyCors, {
   origin: 'http://localhost:5173',
