@@ -15,6 +15,20 @@
       "when": 1758662984506,
       "tag": "0001_careful_ender_wiggin",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1759440853381,
+      "tag": "0002_lumpy_thunderbolt_ross",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1759442393134,
+      "tag": "0003_far_excalibur",
+      "breakpoints": true
     }
   ]
 }
